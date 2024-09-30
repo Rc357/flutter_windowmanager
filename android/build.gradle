@@ -22,7 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
+    namespace 'ph.rex.mobile.flutter_windowmanager'
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 16
